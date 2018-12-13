@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="dec8697c-5022-4df3-9b59-9c7b4ee4e098" name="estil@DESKTOP-MKVBPNT 2018-12-13 22:44:26" runUser="DESKTOP-MKVBPNT\estil" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2018-12-13T22:44:26.3908517+02:00" queuing="2018-12-13T22:44:26.3908517+02:00" start="2018-12-13T22:44:23.8480630+02:00" finish="2018-12-13T22:44:26.4092710+02:00" />
+  <TestSettings name="default" id="fa4f4db0-4b7a-40b7-923b-cc137bfbb41d">
+    <Deployment runDeploymentRoot="estil_DESKTOP-MKVBPNT_2018-12-13_22_44_26" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="50069a61-32b5-4db3-b051-2a141f74816e" testId="1b1c09da-0e38-7d0b-81fe-1d285379e2f7" testName="XunitIssueRepro.TestClass.Fact_TestClassNotDisplayedCorrectly" computerName="DESKTOP-MKVBPNT" duration="00:00:00.0100000" startTime="2018-12-13T22:44:26.2375661+02:00" endTime="2018-12-13T22:44:26.2375724+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50069a61-32b5-4db3-b051-2a141f74816e" />
+    <UnitTestResult executionId="46cbee48-fd1b-4111-98ad-14939a99a8b0" testId="86f0a63a-b89c-d4a8-fe55-10c7c1367deb" testName="XunitIssueRepro.TestClass.Theory_TestClassDisplayedCorrectly(data: &quot;Hello&quot;)" computerName="DESKTOP-MKVBPNT" duration="00:00:00.0010000" startTime="2018-12-13T22:44:26.2480436+02:00" endTime="2018-12-13T22:44:26.2480442+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46cbee48-fd1b-4111-98ad-14939a99a8b0" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="XunitIssueRepro.TestClass.Theory_TestClassDisplayedCorrectly(data: &quot;Hello&quot;)" storage="c:\code\github\xunitissuerepro\xunitissuerepro\bin\debug\netcoreapp2.1\xunitissuerepro.dll" id="86f0a63a-b89c-d4a8-fe55-10c7c1367deb">
+      <Execution id="46cbee48-fd1b-4111-98ad-14939a99a8b0" />
+      <TestMethod codeBase="C:\Code\GitHub\XunitIssueRepro\XunitIssueRepro\bin\Debug\netcoreapp2.1\XunitIssueRepro.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitIssueRepro.TestClass" name="XunitIssueRepro.TestClass.Theory_TestClassDisplayedCorrectly(data: &quot;Hello&quot;)" />
+    </UnitTest>
+    <UnitTest name="XunitIssueRepro.TestClass.Fact_TestClassNotDisplayedCorrectly" storage="c:\code\github\xunitissuerepro\xunitissuerepro\bin\debug\netcoreapp2.1\xunitissuerepro.dll" id="1b1c09da-0e38-7d0b-81fe-1d285379e2f7">
+      <Execution id="50069a61-32b5-4db3-b051-2a141f74816e" />
+      <TestMethod codeBase="C:\Code\GitHub\XunitIssueRepro\XunitIssueRepro\bin\Debug\netcoreapp2.1\XunitIssueRepro.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="XunitIssueRepro" name="XunitIssueRepro.TestClass.Fact_TestClassNotDisplayedCorrectly" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="1b1c09da-0e38-7d0b-81fe-1d285379e2f7" executionId="50069a61-32b5-4db3-b051-2a141f74816e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86f0a63a-b89c-d4a8-fe55-10c7c1367deb" executionId="46cbee48-fd1b-4111-98ad-14939a99a8b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.1 (64-bit .NET Core 4.6.27019.06)[xUnit.net 00:00:01.49]   Discovering: XunitIssueRepro[xUnit.net 00:00:01.58]   Discovered:  XunitIssueRepro[xUnit.net 00:00:01.58]   Starting:    XunitIssueRepro[xUnit.net 00:00:01.74]   Finished:    XunitIssueRepro</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
